@@ -1,0 +1,52 @@
+
+body{
+    background-image: url(../images/bg.png);
+}
+form{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 15px;
+}
+label{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.input{
+    display: block;
+    background-color: transparent;
+    height: 40px;
+    width: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+
+    border-color: gray;
+    outline: none;
+    margin-bottom: 15px;
+}
+.btn{
+    border-radius: 0px;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border: 2px solid #ea272d;
+    padding: 10px 36px;
+}
+.sucess{
+    display: none;
+    color: green;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.danger{
+    display: none;
+    color: red;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
